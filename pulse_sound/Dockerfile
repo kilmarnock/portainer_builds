@@ -9,4 +9,4 @@ RUN apt update -y && \
 
 RUN apt clean
 
-ADD ./pulse_sound/uhubctl /usr/bin
+ADD ./uhubctl /usr/bin
