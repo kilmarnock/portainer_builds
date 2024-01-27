@@ -15,5 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build ./pulse_sound --file ./pulse_sound/Dockerfile --tag my-image-name:$(date +%s) && docker build ./mongodb --file ./mongodb/Dockerfile --tag my-image-name:$(date +%s)
- 
+      run: docker build ./pulse_sound --file ./pulse_sound/Dockerfile --tag my-image-name:$(date +%s) 
