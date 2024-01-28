@@ -6,7 +6,8 @@ RUN apt update -y && \
         python3-paho-mqtt \ 
         mpg321 \
         nano \
-        libusb-1.0-0
+        libusb-1.0-0 \
+        alsa-utils
         
 
 RUN apt clean
