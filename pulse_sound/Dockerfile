@@ -13,3 +13,5 @@ RUN apt update -y && \
 RUN apt clean
 
 ADD ./uhubctl /usr/bin
+
+HEALTHCHECK CMD uhubctl
